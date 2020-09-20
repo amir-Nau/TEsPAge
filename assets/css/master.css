@@ -1,6 +1,6 @@
 /* Layout */
 body {
-  background-color: #2A123D;
+  background-color: #8fb7c2;
   width: 100%;
 }
 #logo {
@@ -27,13 +27,13 @@ header .col, header .col-3 {
 }
 .intro {
   color: #ffffff;
-  background: url('../jpg/grass.jpg') center bottom;
+  background: url('../jpg/molotok.jpg') center;
   padding: 100px 10px 50px 10px;
 }
 .intro h1 {
-  font-size: 2em;
+  font-size: 2.5em;
   line-height: 1.5em;
-  font-style: normal;
+  font-style: bold;
   font-stretch: normal;
   letter-spacing: 0.05em;
   text-align: center;
@@ -48,9 +48,9 @@ header .col, header .col-3 {
   text-align: center;
   text-transform: uppercase;
   border-radius: 40px;
-  font-size: 10px;
-  color: #C347B4;
-  text-size: 1.5em;
+  font-size: 12px;
+  color: #ffffff;
+  text-size : 2em;
 }
 .line {
   display: block;
@@ -71,8 +71,10 @@ em {
   text-align: center;
 }
 .idea .container {
+  border-radius: 25px;
   padding: 3em;
   background: white;
+  opacity: 0.9;
 }
 .idea figure {
   width: 64px;
@@ -81,7 +83,7 @@ em {
 .idea figcaption {
   font-family: 'Anton', sans-serif;
   font-size: 1.5em;
-  color: #C347B4;
+  color: #35376a;
   padding-top: 15px;
 }
 .idea .figs {
@@ -96,7 +98,7 @@ em {
 .idea .oval {
   height: 64px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-  border: solid 2px #2a0e3f;
+  border: solid 2px #35376a;
   border-radius: 32px;
 }
 
@@ -120,10 +122,11 @@ em {
 
 .innovator {
   color: white;
-  background: url('../png/bottom-image.png') center bottom;
+  background: url('../png/hammer.jpg') center top;
   padding: 2em 0;
   text-align: center;
 }
+
 .innovator h2 {
   margin: 1em auto;
 }
@@ -155,14 +158,14 @@ h1, h2 {
   text-align: center;
 }
 .btn {
-  background: #C347B4;
+  background: #35376a;
   color: white;
   padding: 5px 10px;
   text-transform: uppercase;
   font-size: 14px;
 }
 .btn:hover {
-  background: #F357C4;
+  background: #35376a;
 }
 .cta p {
   display: block;
@@ -171,10 +174,10 @@ h1, h2 {
 }
 
 a:link {
-  color: #C347B4;
+  color: #35376a;
 }
 a:hover {
-  color: #F357C4;
+  color: #35376a;
 }
 
 /* For tablets: */
@@ -240,11 +243,12 @@ a:hover {
     margin: 0 auto;
   }
   .btn {
-    background: #C347B4;
+    background: #35376a;
     color: white;
     padding: 10px 15px;
     text-transform: uppercase;
-    font-size: 1em;
+    font-size: 1.15em;
+    font-weight: bold;
   }
 }
 /* For desktop: */
